@@ -1,4 +1,5 @@
 print('\nVariable diclaration and Printing')
+
 x = 5       # x is a variable and of type int
 y = "John"      # y is a variable and of type string
 print(x)
@@ -8,9 +9,11 @@ print('---------------x--------------x------------')
 # If you want to specify the data type of a variable, this can be done with casting.
 
 print('\nTo specify the data type of a variable')
+
 a = str(3)        # a will be '3'
 b = int(3)        # b will be 3
 c = float(3)      # c will be 3.0
+
 print( 'a=',a,'\nb=',b,'\nc=',c)
 
 print('---------------x--------------x------------')
@@ -18,6 +21,7 @@ print('---------------x--------------x------------')
 #you can get the data type of a variable with the type() function.
 
 print('\nGet the data type of a variable with the type() function.')
+
 print(type(a)) 
 print(type(b))
 print(type(c))
@@ -26,7 +30,9 @@ print('---------------x--------------x------------')
 #Python allows you to assign values to multiple variables in one line:
 
 print("\nPython allows you to assign values to multiple variables in one line:")
+
 d, e, f = "Orange", "Banana", "Cherry"
+
 print(d)
 print(e)
 print(f)
@@ -35,17 +41,18 @@ print('---------------x--------------x------------')
 print("\nif you have a collection of values in a list, tuple etc. Python allows you to extract the values into variables. This is called unpacking.")
 
 fruits = ["apple", "banana", "cherry"] # give list as a value
+
 x, y, z = fruits
 print(x)
 print(y)
 print(z)
 
 print('---------------x--------------x------------')
-
-
+ 
 #Create a variable outside of a function, and use it inside the function
 
 print('\nCreate a variable outside of a function, and use it inside the function')
+
 x = "awesome"
 
 def myfunc():
@@ -67,6 +74,7 @@ def myfunc():
 myfunc()
 
 print("Python is " + x)
+
 print('---------------x--------------x------------')
 
 # Text Type:	str
@@ -81,7 +89,6 @@ print('---------------x--------------x------------')
 print('\nIn Python, the data type is set when you assign a value to a variable:')
 
 x = "Hello World"	# data type is String
-
 print('\nx is "x = "Hello World"" and of data Type:', type(x))
 
 x = 20 	# data type	is int.
