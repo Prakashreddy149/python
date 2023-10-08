@@ -134,3 +134,4 @@ x = None		# data type is NoneType.
 print('\nx is "x = None" and of data Type:', type(x))
 
 print('---------------x--------------x------------')
+
