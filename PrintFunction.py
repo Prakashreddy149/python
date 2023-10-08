@@ -47,8 +47,34 @@ print('rahul', 23, end=" ")
 print('ram', 21)
 print('---------------x--------------x------------')
 
+
 # Changing the Default value of End and Separator: 
 print('Changing the Default value of end and Separator:')
 print('rahul', 23, sep='\n', end="->")
 print('ram', 21)
 print('---------------x--------------x------------')
+
+"""
+-----------------------
+OutPut
+-----------------------
+
+Hello how are you?
+---------------x--------------x------------
+('apple', 'banana', 'cherry')
+---------------x--------------x------------
+Print two messages, and specify the separator:
+Hello---how are you?
+---------------x--------------x------------
+Print two messages, and specify the separator:
+Hello
+how are you?
+---------------x--------------x------------
+Changing the Default value of end:
+rahul 23 ram 21
+---------------x--------------x------------
+Changing the Default value of end and Separator:
+rahul
+23->ram 21
+---------------x--------------x------------
+"""
