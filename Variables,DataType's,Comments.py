@@ -135,3 +135,81 @@ print('\nx is "x = None" and of data Type:', type(x))
 
 print('---------------x--------------x------------')
 
+
+""" 
+--------------
+OutPut
+--------------
+
+Variable diclaration and Printing
+5
+John
+---------------x--------------x------------
+
+To specify the data type of a variable
+a= 3 
+b= 3 
+c= 3.0
+---------------x--------------x------------
+
+Get the data type of a variable with the type() function.
+<class 'str'>
+<class 'int'>
+<class 'float'>
+---------------x--------------x------------
+
+Python allows you to assign values to multiple variables in one line:
+Orange
+Banana
+Cherry
+---------------x--------------x------------
+
+if you have a collection of values in a list, tuple etc. Python allows you to extract the values into variables. This is called unpacking.
+apple
+banana
+cherry
+---------------x--------------x------------
+
+Create a variable outside of a function, and use it inside the function
+
+Python is awesome
+
+Create a variable inside a function, with the same name as the global variable
+
+Python is fantastic
+Python is awesome
+---------------x--------------x------------
+
+In Python, the data type is set when you assign a value to a variable:
+
+x is "x = "Hello World"" and of data Type: <class 'str'>
+
+x is "x = 20" and of data Type: <class 'int'>
+
+x is "x = 20.5" and of data Type: <class 'float'>
+
+x is "x = 1j" and of data Type: <class 'complex'>
+
+x is "x = ["apple", "banana", "cherry"]"    and of data Type: <class 'list'>
+
+x is "x = ("apple", "banana", "cherry")" and of data Type: <class 'tuple'>
+
+x is "x = range(6)" and of data Type: <class 'range'>
+
+x is "x = {"name" : "John", "age" : 36}" and of data Type: <class 'dict'>
+
+x is "x = {"apple", "banana", "cherry"}" and of data Type: <class 'set'>
+
+x is "x = ({"apple", "banana", "cherry"})" and of data Type: <class 'frozenset'>
+
+x is "x = True" and of data Type: <class 'bool'>
+
+x is "x = b"Hello"" and of data Type: <class 'bytes'>
+
+x is "x = bytearray(5)" and of data Type: <class 'bytearray'>
+
+x is "x = memoryview(bytes(5))" and of data Type: <class 'memoryview'>
+
+x is "x = None" and of data Type: <class 'NoneType'>
+---------------x--------------x------------
+"""
